@@ -12,8 +12,11 @@ function exercise10() {
   // #######
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+  for(i=1;i<8;i++){
+    const pound="#";
+    const poundnum=pound.repeat(i);
+    console.log(poundnum);
+  }
   // Write code between the lines (above)
   //
   //

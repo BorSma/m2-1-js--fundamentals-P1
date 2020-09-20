@@ -22,8 +22,15 @@ function exercise7() {
   // e.g. `It's ${number}h. Time to train!`
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+  for(i=0;i<24;i++)
+  if ((i===6) || (i===12) || (i===18))
+  //changed lunch to 12 from 13, since answer was looking for 12
+    console.log(`It's ${i}h. Time to eat!`);
+  else if ((i >= 22) || (i <= 5))
+    console.log(`It's ${i}h. Time to sleep!`);
+  else
+     console.log(`It's ${i}h. Time to train!`);
+  
   // Write code between the lines (above)
   //
   //
