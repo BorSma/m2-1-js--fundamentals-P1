@@ -5,8 +5,8 @@ function exercise6_3() {
   // all of the EVEN integers from 1 to 50.
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+for(i=2;i<51;i=i+2)
+{ console.log(i);}
   // Write code between the lines (above)
   //
   //

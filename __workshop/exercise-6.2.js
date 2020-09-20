@@ -4,8 +4,8 @@ function exercise6_2() {
   // Write a loop that will print to the console all of the integers from 5 to 45.
   //
   // Write code between the lines (below)
-  // -----------------------------------------------------------------
-  // -----------------------------------------------------------------
+for(i=5;i<46;i++)
+console.log(i);
   // Write code between the lines (above)
   //
   //
